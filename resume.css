@@ -35,7 +35,7 @@ h1 {
 .contact li {
   list-style-type: none;
   padding-left: 32px;
-  
+  font-size: 1.3rem;
 }
 
 #email {
@@ -62,7 +62,7 @@ h1 {
 #professional_summary p {
   margin-left: 2rem;
   margin-right: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .heading {
@@ -79,11 +79,12 @@ section.work_history {
 }
 
 h3.job_title {
+  font-size: 1.4rem;
   padding-left: 1.5rem;
 }
 
 .job_desc {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 article {
@@ -91,14 +92,14 @@ article {
 }
 
 .add_info ul li {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-left: 20px;
 
 }
 
 .reference p {
   margin-left: 35px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 aside {
@@ -107,16 +108,24 @@ aside {
 }
 
 h3.sub-heading {
+  font-size: 1.5rem;
   padding: 1.5rem;
 }
 
-.as_sct dl dd{
-  padding: 0 20px 10px 20px;
+.skill_list li {
+  width: 95%;
+  margin-left: 1rem; 
+  font-size: 1.4rem;
 }
 
 dt {
+  font-size: 1.3rem;;
   font-weight: 600;
   padding-left: 1.5rem;
+} 
+.as_sct dl dd{
+  font-size: 1.3rem;
+  padding: 0 20px 10px 20px;
 }
 
 footer {
@@ -129,6 +138,7 @@ footer {
 small {
   color: #fff;
   font-weight: 600;
+  font-size: 1.2rem;
 }
 
 
@@ -145,7 +155,7 @@ small {
   #professional_summary {
     flex-basis: 60%;
   }
-  
+
   main {
     display: flex;
     flex-direction: row-reverse;
