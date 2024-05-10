@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#container {
+  max-width: 980px;
+  margin: 0 auto;
+  border: 1px solid navy;
+}
+
+#profile {
+  background-color: rgb(186, 233, 247);
+  padding-bottom: 10px;;
+}
+
+#profile figure {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.0rem;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#profile_img {
+  max-width: 80%;
+  border-radius: 50%;
+}
+
+.contact li {
+  list-style-type: none;
+  padding-left: 32px;
+  
+}
+
+#email {
+  background: url("image/mail2.png") no-repeat;
+  margin-bottom: 5px;
+}
+
+#tel {
+  background: url("image/tel.png") no-repeat;
+  margin-bottom: 5px;
+}
+
+#location {
+  background: url("image/location.png") no-repeat;
+}
+
+#professional_summary {
+  background-color: azure;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#professional_summary p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 1.8rem;
+}
+
+.work_head {
+  padding-top: 1.5rem;
+}
+
+section.work_history {
+  margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+h3.job_title {
+  padding-left: 1.5rem;
+}
+
+.job_desc {
+  font-size: 1.2rem;
+}
+
+article {
+  margin-bottom: 4em;
+}
+
+.add_info ul li {
+  font-size: 1.2rem;
+  margin-left: 20px;
+
+}
+
+.reference p {
+  margin-left: 35px;
+  font-size: 1.2rem;
+}
+
+aside {
+  background-color: azure;
+  padding-bottom: 1.5rem;;
+}
+
+h3.sub-heading {
+  padding: 1.5rem;
+}
+
+.as_sct dl dd{
+  padding: 0 20px 10px 20px;
+}
+
+dt {
+  font-weight: 600;
+  padding-left: 1.5rem;
+}
+
+footer {
+  background-color: navy;
+  text-align: center;
+  height: 2.5em;
+  padding-top: 0.6em;
+}
+
+small {
+  color: #fff;
+  font-weight: 600;
+}
+
+
+/*------Media Query-----*/
+
+
+@media screen and (min-width: 1280px) {
+  header {
+    display: flex;
+  }
+  #profile {
+    flex-basis: 40%;
+  }
+  #professional_summary {
+    flex-basis: 60%;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .main-container {
+    flex-basis: 60%;
+  }
+  aside {
+    flex-basis: 40%;
+  }
+
+  #professional_summary {
+    margin-bottom: 0;
+  }
+}
+
